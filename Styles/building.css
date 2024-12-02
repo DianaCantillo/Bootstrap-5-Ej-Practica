@@ -12,4 +12,6 @@
         /*Personalizo el alto y ancho de toda la pantalla.
           width: 100vw; view with
            height: 500vh; view height
-          margin: 0;}*/}
+          margin: 0;}*/
+          @media (max-width: 1250px) {text-align: center;}
+        }
