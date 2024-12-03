@@ -2,16 +2,39 @@
     /* La propiedades que yo le asigne a root, se aplicarán a todo
     el documento, en este caso HTML. 
     Voy a asiganr variables a los colores, para no aprendernos el codigo*/
-        --bg--color:#1B1833; /*Asigné variables a los colores.
+        --bg--color:#000000; /*Asigné variables a los colores.
         El más oscuro es el background*/
-        --primary-color:#AB4459;
-        --secondary-color:#441752;
-        --hg-color:#1B1833; /*El más claro es el highlight*/
+        --primary-color:#1E3E62;
+        --secondary-color:#0B192C;
+        --hg-color:#A6AEBF; /*El más claro es el highlight*/
         background-color:var(--bg--color);
         color: var(--hg-color); /*Color del texto*/
         /*Personalizo el alto y ancho de toda la pantalla.
           width: 100vw; view with
            height: 500vh; view height
           margin: 0;}*/
-          @media (max-width: 1250px) {text-align: center;}
-        }
+        font-family: Arial, Helvetica, sans-serif;}
+
+
+div.container-fluid{
+  background-color: var(--bg--color);
+  color: white;
+}
+div.container{
+  background-color: var(--bg--color);
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+
+div.card-body{
+  background-color: var(--hg-color);
+}
+
+p.card-text{
+  color: white;
+}
+
+h5.card-title{
+  color: white;
+}
