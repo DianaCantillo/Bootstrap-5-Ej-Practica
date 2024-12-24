@@ -1,20 +1,12 @@
 :root{
-    /* La propiedades que yo le asigne a root, se aplicarán a todo
-    el documento, en este caso HTML. 
-    Voy a asiganr variables a los colores, para no aprendernos el codigo*/
-        --bg--color:#000000; /*Asigné variables a los colores.
-        El más oscuro es el background*/
-        --primary-color:#1E3E62;
-        --secondary-color:#0B192C;
-        --hg-color:#A6AEBF; /*El más claro es el highlight*/
-        background-color:var(--bg--color);
-        color: var(--hg-color); /*Color del texto*/
-        /*Personalizo el alto y ancho de toda la pantalla.
-          width: 100vw; view with
-           height: 500vh; view height
-          margin: 0;}*/
-        font-family: Arial, Helvetica, sans-serif;}
+  --bg-color:#000000;
+  --primary-color:#1E3E62;
+  --secondary-color:#0B192C;
+  --hg-color:#A6AEBF;
 
+  background-color: var(--bg-color);
+  color: var(--hg-color);
+}
 
 div.container-fluid{
   background-color: var(--bg--color);
